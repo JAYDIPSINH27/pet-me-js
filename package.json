@@ -1,6 +1,6 @@
 {
   "name": "pet-me-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tamagotchi-style virtual pet for your terminal. TypeScript, evolutions, mini-games, random events, inventory, multiple pets, achievements — zero runtime deps.",
   "license": "MIT",
   "author": "Jaydipsinh Padhiyar <jaydipadhiyar27@gmail.com>",
