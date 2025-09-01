@@ -42,7 +42,9 @@
     "release": "node dist/bin/pet-me.js release",
     "log": "node dist/bin/pet-me.js log",
     "config": "node dist/bin/pet-me.js config",
-    "reset": "node dist/bin/pet-me.js reset"
+    "reset": "node dist/bin/pet-me.js reset",
+    "help": "node dist/bin/pet-me.js help",
+    "version:show": "node -e \"console.log(require('./package.json').version)\""
   },
   "keywords": [
     "pet",

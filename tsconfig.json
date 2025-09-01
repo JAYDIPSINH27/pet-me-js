@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "target": "ES2020",
     "module": "CommonJS",
     "rootDir": ".",
