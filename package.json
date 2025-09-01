@@ -1,0 +1,70 @@
+{
+  "name": "pet-me-js",
+  "version": "1.0.0",
+  "description": "A Tamagotchi-style virtual pet for your terminal. TypeScript, evolutions, mini-games, random events, inventory, multiple pets, achievements — zero runtime deps.",
+  "license": "MIT",
+  "author": "Jaydipsinh Padhiyar <jaydipadhiyar27@gmail.com>",
+  "homepage": "https://github.com/JAYDIPSINH27/pet-me-js/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/JAYDIPSINH27/pet-me-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAYDIPSINH27/pet-me-js.git"
+  },
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "pet-me": "dist/bin/pet-me.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "status": "node dist/bin/pet-me.js status",
+    "feed": "node dist/bin/pet-me.js feed",
+    "play": "node dist/bin/pet-me.js play",
+    "medicate": "node dist/bin/pet-me.js medicate",
+    "hatch": "node dist/bin/pet-me.js hatch",
+    "list": "node dist/bin/pet-me.js list",
+    "switch": "node dist/bin/pet-me.js switch",
+    "rename": "node dist/bin/pet-me.js rename",
+    "release": "node dist/bin/pet-me.js release",
+    "log": "node dist/bin/pet-me.js log",
+    "config": "node dist/bin/pet-me.js config",
+    "reset": "node dist/bin/pet-me.js reset"
+  },
+  "keywords": [
+    "pet",
+    "virtual-pet",
+    "tamagotchi",
+    "game",
+    "fun",
+    "cli",
+    "node",
+    "javascript",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
